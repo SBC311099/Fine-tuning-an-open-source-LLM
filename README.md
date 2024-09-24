@@ -157,7 +157,7 @@ print(f"Results: {results}")
 After fine-tuning, the model is capable of generating medical domain-specific text and answering questions based on the PubMed QA dataset. The performance of the model can be evaluated using various metrics such as loss and accuracy, which are printed out after the evaluation.
 
 ## Usage
-Once the model is trained, you can use it for inference on new medical text questions:
+Once the model is trained, it can be used for inference on new medical text questions:
 
 ```
 input_text = "What are the symptoms of COVID-19?"
