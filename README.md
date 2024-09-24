@@ -34,17 +34,17 @@ To run this project, first install the necessary libraries by running:
 ```bash
 pip install transformers datasets accelerate bitsandbytes peft
 
-Make sure you also have torch installed, either with CPU or GPU support:
+#Make sure you also have torch installed, either with CPU or GPU support:
 pip install torch
 
-Dataset
+## Dataset
 The dataset used is the PubMed QA dataset, specifically the pqa_labeled version. This dataset contains question-answer pairs in the medical domain, which makes it ideal for fine-tuning GPT-2 for domain-specific question answering.
 
 Load Datasetfrom datasets import load_dataset
 dataset = load_dataset('pubmed_qa', 'pqa_labeled', split='train')
 
 
-Results
+## Results
 After fine-tuning, the model can generate medical domain-specific text and answer questions based on the PubMed QA dataset. The performance of the model is evaluated using standard metrics, and results are printed.
 
 Usage
