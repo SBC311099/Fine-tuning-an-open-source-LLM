@@ -30,7 +30,7 @@ In this project, we fine-tune GPT-2 for question answering on a medical domain d
 
 To run this project, first install the necessary libraries by running:
 
-pip install transformers datasets accelerate bitsandbytes peft torch
+```pip install transformers datasets accelerate bitsandbytes peft torch```
 
 
 
